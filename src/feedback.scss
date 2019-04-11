@@ -7,9 +7,12 @@ div.feedback {
 
     @include flexRowUnd;
 
+
     div.feedback-left {
 
       width: $width50;
+      height: $height70;
+      margin-top: 50px;
 
 
       img {
@@ -21,14 +24,15 @@ div.feedback {
     div.feedback-right {
 
       width: $width50;
-      padding: $paddingU;
+      height: 200px;
+      margin-bottom: 150px;
 
       div.feed-image img {
 
         width: $width80;
-        padding: $paddingU;
+        height: $height100;
+        padding: $paddingF
       }
-
     }
   }
 }
