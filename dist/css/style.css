@@ -113,7 +113,6 @@ div.container div.traditional div.traditional-container div.three-items-row {
 }
 
 div.container div.traditional div.traditional-container div.three-items-row div {
-  width: calc(100% / 5 - margin : $margin);
   padding: 10px;
 }
 
