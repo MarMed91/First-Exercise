@@ -1,0 +1,40 @@
+div.container {
+  width: 100vw;
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+div.container div.header {
+  height: 80px;
+  width: 80%;
+  border-bottom: 1px solid #bdb5af;
+  text-align: center;
+  line-height: 80px;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
+
+div.container div.header div.right div.navbar {
+  margin-left: 50px;
+}
+
+div.container div.header div.right div.navbar span {
+  padding-right: 30px;
+  color: #bdb5af;
+}
+
+div.container div.header div.right div.navbar a {
+  background: white;
+  border: 1px solid blue;
+  text-decoration: none;
+}
+
+div.container div.header div.right div.navbar a:hover {
+  background: blue;
+  border: 1px solid white;
+  color: white;
+}
+
