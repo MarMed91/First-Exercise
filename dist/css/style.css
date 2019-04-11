@@ -51,3 +51,24 @@ div.container div.understand {
   align-items: center;
 }
 
+div.container div.understand div.understand-left {
+  margin: 15px;
+}
+
+div.container div.understand div.understand-left div.buttons {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+}
+
+div.container div.understand div.understand-left div.buttons #Google {
+  padding: 10px;
+  background: blue;
+}
+
+div.container div.understand div.understand-left div.buttons #Slack {
+  padding: 10px;
+  background: blue;
+}
+
