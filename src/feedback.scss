@@ -1,0 +1,26 @@
+
+div.feedback {
+
+  width: $width100;
+
+  div.feedback-container {
+
+    @include flexRowUnd;
+
+    div.feedback-left {
+
+      width: $width50;
+      height: $height70;
+
+      img {
+
+        width: 
+      }
+    }
+    div.feedback-right {
+
+      width: $width50;
+
+    }
+  }
+}

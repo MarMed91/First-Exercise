@@ -139,3 +139,23 @@ div.container div.traditional div.traditional-container div.one-item-row div img
   height: 70%;
 }
 
+div.container div.feedback {
+  width: 100%;
+}
+
+div.container div.feedback div.feedback-container {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+}
+
+div.container div.feedback div.feedback-container div.feedback-left {
+  width: 50%;
+  height: 70%;
+}
+
+div.container div.feedback div.feedback-container div.feedback-right {
+  width: 50%;
+}
+
