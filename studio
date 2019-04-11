@@ -1,0 +1,137 @@
+marko@markoVirtualBox:~$ cd /var/www/html
+marko@markoVirtualBox:/var/www/html$ ls
+gitignore  HelloWorld  HelloWorld3
+marko@markoVirtualBox:/var/www/html$ mkdir FirstExercise
+marko@markoVirtualBox:/var/www/html$ cd FirstExercise
+marko@markoVirtualBox:/var/www/html/FirstExercise$ npm install -y
+npm WARN saveError ENOENT: no such file or directory, open '/var/www/html/FirstExercise/package.json'
+npm notice created a lockfile as package-lock.json. You should commit this file.
+npm WARN enoent ENOENT: no such file or directory, open '/var/www/html/FirstExercise/package.json'
+npm WARN FirstExercise No description
+npm WARN FirstExercise No repository field.
+npm WARN FirstExercise No README data
+npm WARN FirstExercise No license field.
+
+up to date in 0.853s
+found 0 vulnerabilities
+
+marko@markoVirtualBox:/var/www/html/FirstExercise$ npm init -y
+Wrote to /var/www/html/FirstExercise/package.json:
+
+{
+  "name": "FirstExercise",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC"
+}
+
+
+marko@markoVirtualBox:/var/www/html/FirstExercise$ npm  install sass  laravel-mix --force --no-bin-links
+npm WARN using --force I sure hope you know what you are doing.
+npm WARN FirstExercise@1.0.0 No description
+npm WARN FirstExercise@1.0.0 No repository field.
+npm WARN optional SKIPPING OPTIONAL DEPENDENCY: minimist@1.2.0 (node_modules/fsevents/node_modules/rc/node_modules/minimist):
+npm WARN enoent SKIPPING OPTIONAL DEPENDENCY: ENOENT: no such file or directory, open '/var/www/html/FirstExercise/node_modules/fsevents/node_modules/rc/node_modules/minimist/package.json.2747016253'
+
++ laravel-mix@4.0.15
++ sass@1.18.0
+added 964 packages from 439 contributors and audited 16816 packages in 332.307s
+found 0 vulnerabilities
+
+marko@markoVirtualBox:/var/www/html/FirstExercise$ cp node_modules/laravel-mix/setup/webpack.mix.js ./
+marko@markoVirtualBox:/var/www/html/FirstExercise$ cp node_modules/laravel-mix/setup/webpack.mix.js ./
+marko@markoVirtualBox:/var/www/html/FirstExercise$ npm run dev
+
+> FirstExercise@1.0.0 dev /var/www/html/FirstExercise
+> NODE_ENV=development node_modules/webpack/bin/webpack.js --progress --hide-modules --config=node_modules/laravel-mix/setup/webpack.config.js
+
+ 	Additional dependencies must be installed. This will only take a moment.
+ 
+ 	Running: npm install vue-template-compiler --save-dev --production=false
+ 
+npm WARN rollback Rolling back fsevents@1.2.7 failed (this is probably harmless): ETXTBSY: text file is busy, rmdir '/var/www/html/FirstExercise/node_modules/fsevents/node_modules'
+npm WARN FirstExercise@1.0.0 No description
+npm WARN FirstExercise@1.0.0 No repository field.
+npm WARN optional SKIPPING OPTIONAL DEPENDENCY: minimist@1.2.0 (node_modules/fsevents/node_modules/rc/node_modules/minimist):
+npm WARN enoent SKIPPING OPTIONAL DEPENDENCY: ENOENT: no such file or directory, open '/var/www/html/FirstExercise/node_modules/fsevents/node_modules/rc/node_modules/minimist/package.json.422743230'
+npm WARN optional SKIPPING OPTIONAL DEPENDENCY: fsevents@1.2.7 (node_modules/fsevents):
+npm WARN notsup SKIPPING OPTIONAL DEPENDENCY: Unsupported platform for fsevents@1.2.7: wanted {"os":"darwin","arch":"any"} (current: {"os":"linux","arch":"x64"})
+
+ 	Okay, done. The following packages have been installed and saved to your package.json dependencies list:
+ 
+ 	- vue-template-compiler
+ 
+ 	Additional dependencies must be installed. This will only take a moment.
+ 
+ 	Running: npm install sass-loader@7.* resolve-url-loader@2.3.1 --save-dev --production=false
+ 
+npm WARN deprecated resolve-url-loader@2.3.1: package is bloated with temp files (fixed in 2.3.2)
+npm WARN rollback Rolling back fsevents@1.2.7 failed (this is probably harmless): ETXTBSY: text file is busy, rmdir '/var/www/html/FirstExercise/node_modules/fsevents/node_modules'
+npm WARN FirstExercise@1.0.0 No description
+npm WARN FirstExercise@1.0.0 No repository field.
+npm WARN optional SKIPPING OPTIONAL DEPENDENCY: minimist@1.2.0 (node_modules/fsevents/node_modules/rc/node_modules/minimist):
+npm WARN enoent SKIPPING OPTIONAL DEPENDENCY: ENOENT: no such file or directory, open '/var/www/html/FirstExercise/node_modules/fsevents/node_modules/rc/node_modules/minimist/package.json.175141695'
+npm WARN optional SKIPPING OPTIONAL DEPENDENCY: fsevents@1.2.7 (node_modules/fsevents):
+npm WARN notsup SKIPPING OPTIONAL DEPENDENCY: Unsupported platform for fsevents@1.2.7: wanted {"os":"darwin","arch":"any"} (current: {"os":"linux","arch":"x64"})
+
+ 	Okay, done. The following packages have been installed and saved to your package.json dependencies list:
+ 
+ 	- sass-loader@7.*
+ 
+ 	- resolve-url-loader@2.3.1
+ 
+ 	Finished. Please run Mix again.
+ 
+marko@markoVirtualBox:/var/www/html/FirstExercise$ npm run watch-poll
+
+> FirstExercise@1.0.0 watch-poll /var/www/html/FirstExercise
+> npm run dev -- --watch  --watch-poll
+
+
+> FirstExercise@1.0.0 dev /var/www/html/FirstExercise
+> NODE_ENV=development node_modules/webpack/bin/webpack.js --progress --hide-modules --config=node_modules/laravel-mix/setup/webpack.config.js "--watch" "--watch-poll"
+
+ 10% building 1/1 modules 0 active                                           
+webpack is watching the files…
+
+ 98% after emitting SizeLimitsPlugin                       
+
+ ERROR  Failed to compile with 2 errors                                                                                                                       10:25:59 AM
+
+These dependencies were not found:
+
+* /var/www/html/FirstExercise/src/app.js in multi ./src/app.js ./src/app.scss
+* /var/www/html/FirstExercise/src/app.scss in multi ./src/app.js ./src/app.scss
+
+To install them, you can run: npm install --save /var/www/html/FirstExercise/src/app.js /var/www/html/FirstExercise/src/app.scss
+       Asset      Size     Chunks             Chunk Names
+/dist/app.js  4.08 KiB  /dist/app  [emitted]  /dist/app
+
+ERROR in multi ./src/app.js ./src/app.scss
+Module not found: Error: Can't resolve '/var/www/html/FirstExercise/src/app.js' in '/var/www/html/FirstExercise'
+ @ multi ./src/app.js ./src/app.scss /dist/app[0]
+
+ERROR in multi ./src/app.js ./src/app.scss
+Module not found: Error: Can't resolve '/var/www/html/FirstExercise/src/app.scss' in '/var/www/html/FirstExercise'
+ @ multi ./src/app.js ./src/app.scss /dist/app[1]
+        
+
+
+
+
+
+
+
+
+
+
+
+
+
+
