@@ -83,3 +83,16 @@ div.container div.understand div.understand-right img {
   width: 100%;
 }
 
+div.container div.traditional {
+  width: 100%;
+  background: #ffe7d2;
+}
+
+div.container div.traditional div.traditional-container {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  width: 80%;
+}
+

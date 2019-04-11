@@ -1,7 +1,12 @@
 
 div.traditional {
 
+  width: $width100;
+  background: rgb(255, 231, 210);
+
   div.traditional-container {
-    
+
+    @include flexRowUnd;
+    width: $width80;
   }
 }
