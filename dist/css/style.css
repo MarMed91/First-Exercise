@@ -49,10 +49,12 @@ div.container div.understand {
   flex-direction: row;
   justify-content: center;
   align-items: center;
+  width: 80%;
 }
 
 div.container div.understand div.understand-left {
   margin: 15px;
+  padding: 50px;
 }
 
 div.container div.understand div.understand-left div.buttons {
@@ -65,10 +67,19 @@ div.container div.understand div.understand-left div.buttons {
 div.container div.understand div.understand-left div.buttons #Google {
   padding: 10px;
   background: blue;
+  box-shadow: none;
 }
 
 div.container div.understand div.understand-left div.buttons #Slack {
   padding: 10px;
   background: blue;
+}
+
+div.container div.understand div.understand-right {
+  width: 100%;
+}
+
+div.container div.understand div.understand-right img {
+  width: 100%;
 }
 

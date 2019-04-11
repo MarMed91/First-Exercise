@@ -1,9 +1,38 @@
 div.understand {
 
     @include flexRowUnd;
+    width: $width80;
 
   div.understand-left {
 
+     margin: $margin;
+     padding: $paddingU;
 
+     div.buttons {
+
+         @include flexRowUnd;
+
+         #Google {
+
+           padding: $padding;
+           background: $colors5;
+           box-shadow: none;
+         }
+
+         #Slack {
+
+           padding: $padding;
+            background: $colors5;
+         }
+     }
+  }
+  div.understand-right {
+
+    width: $width100;
+
+    img {
+
+      width: $width100;
+    }
   }
 }
