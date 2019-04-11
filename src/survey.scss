@@ -1,0 +1,32 @@
+
+div.survey {
+
+  width: $width100;
+
+  div.survey-container {
+
+    @include flexRowUnd;
+
+    div.surveys-left {
+
+
+        margin: $margin_auto;
+      
+
+      }
+
+    div.surveys-right {
+
+
+        margin: $margin_auto;
+        width: $width50;
+        height : $height70;
+
+        img {
+
+          width: $width100;
+          height: $height100;
+        }
+      }
+  }
+}
