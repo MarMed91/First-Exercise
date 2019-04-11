@@ -8,7 +8,8 @@ div.header {
   text-align: center;
   line-height: 80px;
 
-  @include flexHeader;
+  @include flexRowHeader;
+
 
   @import "right";
 

@@ -44,3 +44,10 @@ div.container div.header div.right div.navbar a:hover {
   color: white;
 }
 
+div.container div.understand {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+}
+
