@@ -6,12 +6,19 @@ div.traditional {
 
   div.traditional-container {
 
-    @include flexRowUnd;
+    @include flexColumn;
     width: $width80;
 
     div.three-items-row {
 
+      margin: $margin_auto;
       @include  flexRowUnd;
+      height: calc(100% / 3);
+
+      div {
+
+          width: calc(100% / 3);
+      }
     }
   }
 }
