@@ -44,3 +44,10 @@ $border-radius: 8px;
   justify-content: center;
   align-items: center;
 }
+
+@mixin button {
+
+  padding: $padding;
+  background: $colors5;
+  border: none;
+}

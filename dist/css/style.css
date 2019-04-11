@@ -73,12 +73,13 @@ div.container div.understand div.understand-left div.buttons {
 div.container div.understand div.understand-left div.buttons #Google {
   padding: 10px;
   background: blue;
-  box-shadow: none;
+  border: none;
 }
 
 div.container div.understand div.understand-left div.buttons #Slack {
   padding: 10px;
   background: blue;
+  border: none;
 }
 
 div.container div.understand div.understand-right {
@@ -182,19 +183,19 @@ div.container div.survey div.survey-container {
   flex-direction: row;
   justify-content: center;
   align-items: center;
+  width: 80%;
 }
 
 div.container div.survey div.survey-container div.surveys-left {
-  margin: auto;
+  width: 50%;
 }
 
 div.container div.survey div.survey-container div.surveys-right {
-  margin: auto;
   width: 50%;
   height: 70%;
 }
 
-div.container div.survey div.survey-container div.surveys-right img {
+div.container div.survey div.survey-container div.surveys-right div.survey-right img {
   width: 100%;
   height: 100%;
 }

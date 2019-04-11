@@ -14,15 +14,12 @@ div.understand {
 
          #Google {
 
-           padding: $padding;
-           background: $colors5;
-           box-shadow: none;
+          @include button;
          }
 
          #Slack {
 
-           padding: $padding;
-            background: $colors5;
+          @include button;
          }
      }
   }

@@ -6,23 +6,24 @@ div.survey {
   div.survey-container {
 
     @include flexRowUnd;
+    width: $width80;
 
     div.surveys-left {
 
 
-        margin: $margin_auto;
-      
+
+        width: $width50;
 
       }
 
     div.surveys-right {
 
 
-        margin: $margin_auto;
+
         width: $width50;
         height : $height70;
 
-        img {
+        div.survey-right img {
 
           width: $width100;
           height: $height100;
