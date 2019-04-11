@@ -120,3 +120,20 @@ div.container div.traditional div.traditional-container div.three-items-row div 
   width: 80%;
 }
 
+div.container div.traditional div.traditional-container div.one-item-row {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  height: calc(100% / 7);
+  width: 80%;
+}
+
+div.container div.traditional div.traditional-container div.one-item-row div {
+  padding: 10px;
+}
+
+div.container div.traditional div.traditional-container div.one-item-row div img {
+  width: 80%;
+}
+

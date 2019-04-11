@@ -2,7 +2,7 @@
 div.traditional {
 
   width: $width100;
-  background: rgb(255, 231, 210);
+  background: $colors6;
 
   div.traditional-container {
 
@@ -24,6 +24,23 @@ div.traditional {
           img {
 
             width: $width80;
+          }
+      }
+    }
+    div.one-item-row {
+
+      @include  flexRowUnd;
+      height: calc(100% / 7);
+      width: $width80;
+
+      div {
+
+          padding: $padding;
+
+          img {
+
+              width: $width80;
+              height: $height70;
           }
       }
     }
