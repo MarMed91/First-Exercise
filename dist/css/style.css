@@ -23,13 +23,19 @@ div.container div.header div.right div.navbar {
 
 div.container div.header div.right div.navbar span {
   padding-right: 30px;
-  color: #bdb5af;
+  color: #58402c;
+}
+
+div.container div.header div.right div.navbar span:hover {
+  color: #7e8db9;
 }
 
 div.container div.header div.right div.navbar a {
   background: white;
   border: 1px solid blue;
   text-decoration: none;
+  padding: 10px;
+  border-radius: 8px;
 }
 
 div.container div.header div.right div.navbar a:hover {

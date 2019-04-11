@@ -1,7 +1,14 @@
 $colors1 : rgb(189, 181, 175);
 $colors2 : white;
+$colors3 : #58402c;
+$colors4 : rgb(126, 141, 185);
+
 $padding-right : 30px;
+$padding: 10px;
+
 $margin-left : 50px;
+
+$border-radius: 8px;
 
 @mixin flexContainer {
 

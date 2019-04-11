@@ -7,8 +7,12 @@ div.right {
     span {
 
       padding-right : $padding-right;
-      color: $colors1;
+      color: $colors3;
 
+        &:hover {
+
+            color:$colors4;
+        }
      }
 
     a {
@@ -16,6 +20,8 @@ div.right {
       background: white;
       border: 1px solid blue;
       text-decoration: none;
+      padding: $padding;
+      border-radius: $border-radius;
 
       &:hover {
 
