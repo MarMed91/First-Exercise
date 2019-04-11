@@ -10,16 +10,24 @@ div.feedback {
     div.feedback-left {
 
       width: $width50;
-      height: $height70;
+
 
       img {
 
-        width: 
+        width: $width100;
+        height: $height100;
       }
     }
     div.feedback-right {
 
       width: $width50;
+      padding: $paddingU;
+
+      div.feed-image img {
+
+        width: $width80;
+        padding: $paddingU;
+      }
 
     }
   }
