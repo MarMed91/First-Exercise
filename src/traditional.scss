@@ -7,17 +7,25 @@ div.traditional {
   div.traditional-container {
 
     @include flexColumn;
+    justify-content: center;
     width: $width80;
+    margin: $margin_auto;
 
     div.three-items-row {
 
-      margin: $margin_auto;
       @include  flexRowUnd;
       height: calc(100% / 3);
+      width: $width80;
 
       div {
 
-          width: calc(100% / 3);
+          width: calc(100% / 5 - margin : $margin);
+          padding: $padding;
+
+          img {
+
+            width: $width80;
+          }
       }
     }
   }
