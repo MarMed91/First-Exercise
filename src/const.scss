@@ -1,0 +1,18 @@
+$colors1 : rgb(189, 181, 175);
+$colors2 : white;
+$padding-right : 30px;
+$margin-left : 50px;
+
+@mixin flexContainer {
+
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+@mixin flexHeader {
+
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
