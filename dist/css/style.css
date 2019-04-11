@@ -127,7 +127,7 @@ div.container div.traditional div.traditional-container div.one-item-row {
   align-items: center;
   height: calc(100% / 7);
   width: 80%;
-  border: 1px solid #bdb5af;
+  border-bottom: 1px solid #bdb5af;
 }
 
 div.container div.traditional div.traditional-container div.one-item-row div {

@@ -32,7 +32,7 @@ div.traditional {
       @include  flexRowUnd;
       height: calc(100% / 7);
       width: $width80;
-      border: 1px solid $colors1;
+      border-bottom: 1px solid $colors1;
 
       div {
 
@@ -41,7 +41,7 @@ div.traditional {
           img {
 
               width: $width80;
-              height: 70%;
+              height: $height70;
           }
       }
     }
