@@ -173,3 +173,18 @@ div.container div.feedback div.feedback-container div.feedback-right div.feed-im
   padding: 150px;
 }
 
+div.container div.survey {
+  width: 100%;
+}
+
+div.container div.survey div.survey-container {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+div.container div.survey div.survey-container div {
+  display: inline-block;
+  margin: auto;
+}
+

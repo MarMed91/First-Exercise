@@ -11,6 +11,38 @@ div.header {
   @include flexRowHeader;
 
 
-  @import "right";
+  div.right {
 
+    div.navbar {
+
+      margin-left : $margin-left;
+
+      span {
+
+        padding-right : $padding-right;
+        color: $colors3;
+
+          &:hover {
+
+              color:$colors4;
+          }
+       }
+
+      a {
+
+        background: white;
+        border: 1px solid blue;
+        text-decoration: none;
+        padding: $padding;
+        border-radius: $border-radius;
+
+        &:hover {
+
+          background: $colors5;
+          border: 1px solid white;
+          color: $colors2;
+        }
+      }
+    }
+  }
 }
