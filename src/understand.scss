@@ -13,12 +13,10 @@ div.understand {
          @include flexRowUnd;
 
          #Google {
-
           @include button;
          }
 
          #Slack {
-
           @include button;
          }
      }
@@ -28,7 +26,6 @@ div.understand {
     width: $width100;
 
     img {
-
       width: $width100;
     }
   }

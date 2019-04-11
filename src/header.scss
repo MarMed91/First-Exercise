@@ -1,6 +1,5 @@
 
 div.header {
-
   height: 80px;
   width: $width80;
 
@@ -9,7 +8,6 @@ div.header {
   line-height: 80px;
 
   @include flexRowHeader;
-
 
   div.right {
 
@@ -23,13 +21,11 @@ div.header {
         color: $colors3;
 
           &:hover {
-
               color:$colors4;
           }
        }
 
       a {
-
         background: white;
         border: 1px solid blue;
         text-decoration: none;
@@ -37,7 +33,6 @@ div.header {
         border-radius: $border-radius;
 
         &:hover {
-
           background: $colors5;
           border: 1px solid white;
           color: $colors2;

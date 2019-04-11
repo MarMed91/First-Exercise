@@ -1,33 +1,28 @@
 
 div.survey {
 
-  width: $width100;
+   width: $width100;
 
-  div.survey-container {
+   div.survey-container {
 
-    @include flexRowUnd;
-    width: $width80;
+      @include flexRowUnd;
 
-    div.surveys-left {
+      width: $width80;
 
-
-
-        width: $width50;
-
-      }
-
-    div.surveys-right {
-
-
-
-        width: $width50;
-        height : $height70;
-
-        div.survey-right img {
-
-          width: $width100;
-          height: $height100;
+      div.surveys-left {
+          width: $width50;
         }
-      }
-  }
+
+      div.surveys-right {
+
+          width: $width50;
+          height : $height70;
+
+          div.survey-right img {
+
+             width: $width100;
+             height: $height100;
+          }
+        }
+   }
 }
