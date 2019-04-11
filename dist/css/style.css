@@ -96,3 +96,10 @@ div.container div.traditional div.traditional-container {
   width: 80%;
 }
 
+div.container div.traditional div.traditional-container div.three-items-row {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+}
+

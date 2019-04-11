@@ -8,5 +8,10 @@ div.traditional {
 
     @include flexRowUnd;
     width: $width80;
+
+    div.three-items-row {
+
+      @include  flexRowUnd;
+    }
   }
 }
