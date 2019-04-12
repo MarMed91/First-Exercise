@@ -29,7 +29,7 @@
          div.link-container {
 
              margin-right: $marginU;
-             width: $widthPerc;
+             width: calc(100% / 5 - 30px);
 
            ul {
                @include footerLink;

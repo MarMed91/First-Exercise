@@ -16,7 +16,7 @@ div.traditional {
     div.three-items-row {
 
       @include  flexRowUnd;
-      height: $heightPerc;
+      height: calc(100% / 3);
       width: $width75;
 
       div {
