@@ -11,7 +11,7 @@ div.traditional {
     justify-content: center;
     width: $width75;
     margin: $margin_auto;
-    padding:$paddingF;
+    padding: $paddingU;
 
     div.three-items-row {
 
@@ -21,6 +21,7 @@ div.traditional {
 
       div {
           padding: $padding;
+          margin: $marginB;
 
           img {
             width: $width75;
@@ -30,16 +31,16 @@ div.traditional {
     div.one-item-row {
 
       @include  flexRowUnd;
-      
+
       width: $width75;
       border-bottom: 1px solid $colors1;
 
       div {
-          padding: $padding-rightFoot;
-
+          
           img {
               width: $width75;
               height: $height75;
+              padding: $paddingU;
           }
       }
     }

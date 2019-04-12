@@ -118,7 +118,7 @@ div.container div.traditional div.traditional-container {
   justify-content: center;
   width: 75%;
   margin: auto;
-  padding: 125px 180px 35px;
+  padding: 50px;
 }
 
 div.container div.traditional div.traditional-container div.three-items-row {
@@ -133,6 +133,7 @@ div.container div.traditional div.traditional-container div.three-items-row {
 
 div.container div.traditional div.traditional-container div.three-items-row div {
   padding: 10px;
+  margin: 30px;
 }
 
 div.container div.traditional div.traditional-container div.three-items-row div img {
@@ -149,13 +150,10 @@ div.container div.traditional div.traditional-container div.one-item-row {
   border-bottom: 1px solid #bdb5af;
 }
 
-div.container div.traditional div.traditional-container div.one-item-row div {
-  padding: 120px;
-}
-
 div.container div.traditional div.traditional-container div.one-item-row div img {
   width: 75%;
   height: 75%;
+  padding: 50px;
 }
 
 div.container div.feedback {
@@ -347,11 +345,13 @@ div.container div.footer div.footer-container div.footer-right {
   justify-content: center;
 }
 
-div.container div.footer div.footer-container div.footer-right div.link-container ul {
-  list-style: none;
+div.container div.footer div.footer-container div.footer-right div.link-container {
+  margin-right: 50px;
+  width: calc(100% / 5 - 30px);
 }
 
-div.container div.footer div.footer-container div.footer-right div.link-container ul li {
+div.container div.footer div.footer-container div.footer-right div.link-container ul {
   list-style: none;
+  text-decoration: none;
 }
 

@@ -10,6 +10,7 @@ $width50 : 50%;
 $width75 : 75%;
 $width85 : 85%;
 $width100 : 100%;
+$widthPerc : calc(100% / 5 - 30px);
 $height : 50%;
 $height75 : 75%;
 $height100 : 100%;
@@ -68,6 +69,11 @@ $font-size40: 40px;
   display: flex;
   flex-direction: row;
   justify-content: center;
+}
+
+@mixin footerLink {
+  list-style: none;
+  text-decoration: none;
 }
 
 @mixin button {
