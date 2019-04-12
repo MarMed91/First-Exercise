@@ -1,0 +1,23 @@
+
+ div.see_Teambit {
+
+   width: $width100;
+   background-color: $colors6;
+   @include flexColumn;
+
+   div.see_Teambit-container {
+
+     div.buttons {
+
+         @include flexRowUnd;
+
+         #Google {
+          @include button;
+         }
+
+         #Slack {
+          @include button;
+         }
+     }
+   }
+}

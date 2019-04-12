@@ -24,21 +24,18 @@ $margin-left : 50px;
 $border-radius: 8px;
 
 @mixin flexColumn {
-
   display: flex;
   flex-direction: column;
   align-items: center;
 }
 
 @mixin flexRowHeader {
-
   display: flex;
   flex-direction: row;
   justify-content: space-between;
 }
 
 @mixin flexRowUnd {
-
   display: flex;
   flex-direction: row;
   justify-content: center;
@@ -46,7 +43,6 @@ $border-radius: 8px;
 }
 
 @mixin button {
-
   padding: $padding;
   background: $colors5;
   border: none;
