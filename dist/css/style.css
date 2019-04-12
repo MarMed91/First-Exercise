@@ -205,11 +205,15 @@ div.container div.survey div.survey-container div.surveys-right div.survey-right
 div.container div.see {
   width: 100%;
   background: #ffe7d2;
+  margin: auto;
 }
 
 div.container div.see div.see_Teambit-container {
   width: 75%;
   height: 75%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
 }
 
 div.container div.see div.see_Teambit-container div.buttons {
@@ -231,5 +235,17 @@ div.container div.see div.see_Teambit-container div.buttons #Slack {
   background: blue;
   border: none;
   border-radius: 8px;
+}
+
+div.container div.footer {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+div.container div.footer div.footer-container {
+  width: 75%;
+  height: 75%;
 }
 

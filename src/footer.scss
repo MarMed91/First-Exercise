@@ -1,1 +1,12 @@
 
+ div.footer {
+
+   width: $width100;
+   @include flexColumn;
+
+   div.footer-container {
+
+     width: $width75;
+     height: $height75;
+   }
+ }
