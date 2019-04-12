@@ -2,7 +2,7 @@
  div.see_Teambit {
 
    width: $width100;
-   background-color: $colors6;
+   background : $colors6;
    @include flexColumn;
 
    div.see_Teambit-container {
