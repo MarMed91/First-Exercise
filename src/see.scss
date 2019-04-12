@@ -10,6 +10,7 @@
 
        width: $width75;
        @include flexColumn;
+
        margin: $margin_auto;
        padding:$paddingF;
 
@@ -19,31 +20,45 @@
 
        blockquote {
 
-         height: 90%;
-         width: $width50;
+         width: $width75;
+
          margin: $margin_auto;
+         margin-bottom: $marginU;
+         padding: $paddingU;
+
          background: $colors2;
          border: $border;
          border-radius: $border-radius;
-         margin-bottom: $marginU;
+
+         div.b-quote__photo {
+           margin-top: $marginB;
+         }
+
+         div.b-quote__cite {
+          @include flexColumnS;
+
+          span {
+            color: $colors5;
+          }
         }
+      }
 
-       div.buttons {
+      div.buttons {
 
-           @include flexRowUnd;
+         @include flexRowUnd;
 
-           #Google {
-            @include button;
-           }
+         #Google {
+          @include button;
+         }
 
-           i {
-             color: grey;
-           }
+         i {
+           color: grey;
+         }
 
-           #Slack {
-            @include button;
-           }
-       }
+         #Slack {
+          @include button;
+         }
+      }
 
        span {
          margin-top: $marginU;

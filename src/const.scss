@@ -22,6 +22,7 @@ $paddingF : 70px 70px 35px;
 $padding-left : 50px;
 
 $margin: 15px;
+$marginB: 30px;
 $marginU: 50px;
 $margin_auto : auto;
 $margin-left : 50px;
@@ -33,6 +34,11 @@ $border : 1px solid black;
   display: flex;
   flex-direction: column;
   align-items: center;
+}
+
+@mixin flexColumnS {
+  display: flex;
+  flex-direction: column;
 }
 
 @mixin flexRowHeader {
