@@ -201,20 +201,20 @@ div.container div.survey div.survey-container {
   width: 75%;
 }
 
-div.container div.survey div.survey-container div.surveys-left {
+div.container div.survey div.survey-container div.survey-left {
   width: 50%;
 }
 
-div.container div.survey div.survey-container div.surveys-right {
+div.container div.survey div.survey-container div.survey-right {
   width: 50%;
 }
 
-div.container div.survey div.survey-container div.surveys-right div.survey-right-img {
+div.container div.survey div.survey-container div.survey-right div.survey-right-img {
   width: 100%;
   height: 100px;
 }
 
-div.container div.survey div.survey-container div.surveys-right div.survey-right-img div.survey-right img {
+div.container div.survey div.survey-container div.survey-right div.survey-right-img div.survey-right img {
   width: 100%;
   height: 100%;
 }
@@ -236,6 +236,9 @@ div.container div.see div.see_Teambit-container {
 
 div.container div.see div.see_Teambit-container h5 {
   margin-bottom: 50px;
+  font-size: 40px;
+  color: #58402c;
+  padding: 10px;
 }
 
 div.container div.see div.see_Teambit-container blockquote {
@@ -305,6 +308,7 @@ div.container div.footer div.footer-container {
   display: flex;
   flex-direction: row;
   justify-content: center;
+  padding: 50px;
 }
 
 div.container div.footer div.footer-container div.footer-left {

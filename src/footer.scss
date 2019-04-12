@@ -8,7 +8,9 @@
 
        width: $width85;
        height: $height75;
-        @include flexFooter;
+
+      @include flexFooter;
+      padding: $paddingU;
 
        div.footer-left {
          width: $width50;
