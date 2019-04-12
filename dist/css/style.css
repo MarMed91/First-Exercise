@@ -156,9 +156,14 @@ div.container div.traditional div.traditional-container div.one-item-row div img
   padding: 50px;
 }
 
+div.container div.traditional div.traditional-container span {
+  font-size: 40px;
+}
+
 div.container div.feedback {
   width: 100%;
   margin-bottom: 50px;
+  color: #58402c;
 }
 
 div.container div.feedback div.feedback-container {
@@ -195,6 +200,7 @@ div.container div.feedback div.feedback-container div.feedback-right div.feed-im
 div.container div.survey {
   width: 100%;
   margin-bottom: 50px;
+  color: #58402c;
 }
 
 div.container div.survey div.survey-container {
@@ -337,6 +343,10 @@ div.container div.footer div.footer-container div.footer-left {
   flex-direction: row;
   justify-content: center;
   padding-right: 120px;
+}
+
+div.container div.footer div.footer-container div.footer-left div.footer-img {
+  margin: 15px;
 }
 
 div.container div.footer div.footer-container div.footer-right {

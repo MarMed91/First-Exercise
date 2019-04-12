@@ -16,6 +16,10 @@
          width: $width50;
          @include flexFooter;
          padding-right: $padding-rightFoot;
+
+         div.footer-img {
+           margin: $margin;
+         }
        }
 
        div.footer-right {
@@ -27,11 +31,7 @@
              width: $widthPerc;
 
            ul {
-
                @include footerLink;
-             li {
-
-             }
            }
          }
        }

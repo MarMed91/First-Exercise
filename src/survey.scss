@@ -4,6 +4,8 @@ div.survey {
    width: $width100;
    margin-bottom: $marginU;
 
+   color: $colors3;
+
    div.survey-container {
 
       @include flexRowUnd;

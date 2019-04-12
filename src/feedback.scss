@@ -4,6 +4,8 @@ div.feedback {
   width: $width100;
   margin-bottom: $marginU;
 
+  color: $colors3;
+
   div.feedback-container {
 
     @include flexRowUnd;

@@ -16,7 +16,7 @@ div.traditional {
     div.three-items-row {
 
       @include  flexRowUnd;
-      height: calc(100% / 3);
+      height: $heightPerc;
       width: $width75;
 
       div {
@@ -36,13 +36,16 @@ div.traditional {
       border-bottom: 1px solid $colors1;
 
       div {
-          
+
           img {
               width: $width75;
               height: $height75;
               padding: $paddingU;
           }
       }
+    }
+    span {
+      font-size: $font-size40;
     }
   }
 }
