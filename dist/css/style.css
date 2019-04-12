@@ -107,6 +107,7 @@ div.container div.understand div.understand-right img {
 div.container div.traditional {
   width: 100%;
   background: #ffe7d2;
+  color: #58402c;
 }
 
 div.container div.traditional div.traditional-container {
@@ -116,6 +117,7 @@ div.container div.traditional div.traditional-container {
   justify-content: center;
   width: 75%;
   margin: auto;
+  padding: 70px 70px 35px;
 }
 
 div.container div.traditional div.traditional-container div.three-items-row {
@@ -140,13 +142,12 @@ div.container div.traditional div.traditional-container div.one-item-row {
   flex-direction: row;
   justify-content: center;
   align-items: center;
-  height: calc(100% / 7);
   width: 75%;
   border-bottom: 1px solid #bdb5af;
 }
 
 div.container div.traditional div.traditional-container div.one-item-row div {
-  padding: 10px;
+  padding: 120px;
 }
 
 div.container div.traditional div.traditional-container div.one-item-row div img {
@@ -185,7 +186,7 @@ div.container div.feedback div.feedback-container div.feedback-right {
 div.container div.feedback div.feedback-container div.feedback-right div.feed-image img {
   width: 75%;
   height: 100%;
-  padding: 150px;
+  padding: 70px 70px 35px;
 }
 
 div.container div.survey {
@@ -280,7 +281,7 @@ div.container div.footer div.footer-container div.footer-left {
   display: flex;
   flex-direction: row;
   justify-content: center;
-  padding-right: 150px;
+  padding-right: 120px;
 }
 
 div.container div.footer div.footer-container div.footer.right {
