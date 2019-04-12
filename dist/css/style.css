@@ -210,6 +210,11 @@ div.container div.see_Teambit {
   align-items: center;
 }
 
+div.container div.see_Teambit div.see_Teambit-container {
+  width: 80%;
+  height: 70%;
+}
+
 div.container div.see_Teambit div.see_Teambit-container div.buttons {
   display: flex;
   flex-direction: row;
