@@ -54,11 +54,13 @@ $font-size40: 40px;
   flex-direction: row;
   justify-content: center;
   align-items: center;
+  text-align: center;
 }
 
 @mixin flexRowUndU {
   display: flex;
   flex-direction: row;
+  text-align: center;
 }
 
 @mixin flexFooter {

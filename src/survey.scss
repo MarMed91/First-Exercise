@@ -6,28 +6,17 @@ div.survey {
    div.survey-container {
 
       @include flexRowUnd;
-
+      margin: $margin_auto;
       width: $width75;
 
       div.survey-left {
-          width: $width50;
-        }
+      margin: $margin_auto;
+      width: $width50;
+      }
 
       div.survey-right {
-
           width: $width50;
-
-          div.survey-right-img {
-
-            width: $width100;
-            height: 100px;
-
-            div.survey-right img {
-
-               width: $width100;
-               height: $height100;
-            }
-          }
-        }
+          margin: $margin_auto;
+      }
    }
 }

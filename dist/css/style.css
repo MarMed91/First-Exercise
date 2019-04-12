@@ -53,6 +53,7 @@ div.container div.header div.right div.navbar a:hover {
 div.container div.understand {
   display: flex;
   flex-direction: row;
+  text-align: center;
   width: 75%;
   margin: 50px;
 }
@@ -125,6 +126,7 @@ div.container div.traditional div.traditional-container div.three-items-row {
   flex-direction: row;
   justify-content: center;
   align-items: center;
+  text-align: center;
   height: calc(100% / 3);
   width: 75%;
 }
@@ -142,6 +144,7 @@ div.container div.traditional div.traditional-container div.one-item-row {
   flex-direction: row;
   justify-content: center;
   align-items: center;
+  text-align: center;
   width: 75%;
   border-bottom: 1px solid #bdb5af;
 }
@@ -164,6 +167,7 @@ div.container div.feedback div.feedback-container {
   flex-direction: row;
   justify-content: center;
   align-items: center;
+  text-align: center;
 }
 
 div.container div.feedback div.feedback-container div.feedback-left {
@@ -198,25 +202,19 @@ div.container div.survey div.survey-container {
   flex-direction: row;
   justify-content: center;
   align-items: center;
+  text-align: center;
+  margin: auto;
   width: 75%;
 }
 
 div.container div.survey div.survey-container div.survey-left {
+  margin: auto;
   width: 50%;
 }
 
 div.container div.survey div.survey-container div.survey-right {
   width: 50%;
-}
-
-div.container div.survey div.survey-container div.survey-right div.survey-right-img {
-  width: 100%;
-  height: 100px;
-}
-
-div.container div.survey div.survey-container div.survey-right div.survey-right-img div.survey-right img {
-  width: 100%;
-  height: 100%;
+  margin: auto;
 }
 
 div.container div.see {
@@ -269,6 +267,7 @@ div.container div.see div.see_Teambit-container div.buttons {
   flex-direction: row;
   justify-content: center;
   align-items: center;
+  text-align: center;
 }
 
 div.container div.see div.see_Teambit-container div.buttons #Google {
