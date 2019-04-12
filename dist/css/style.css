@@ -92,7 +92,7 @@ div.container div.understand div.understand-left div.buttons #Slack {
 }
 
 div.container div.understand div.understand-left span {
-  margin-bottom: 15px;
+  margin-top: 50px;
   color: #58402c;
 }
 
@@ -231,11 +231,21 @@ div.container div.see div.see_Teambit-container {
   flex-direction: column;
   align-items: center;
   margin: auto;
+  padding: 70px 70px 35px;
+}
+
+div.container div.see div.see_Teambit-container h5 {
+  margin-bottom: 50px;
 }
 
 div.container div.see div.see_Teambit-container blockquote {
+  height: 90%;
+  width: 50%;
+  margin: auto;
   background: white;
   border: 1px solid black;
+  border-radius: 8px;
+  margin-bottom: 50px;
 }
 
 div.container div.see div.see_Teambit-container div.buttons {
@@ -253,12 +263,20 @@ div.container div.see div.see_Teambit-container div.buttons #Google {
   border-radius: 8px;
 }
 
+div.container div.see div.see_Teambit-container div.buttons i {
+  color: grey;
+}
+
 div.container div.see div.see_Teambit-container div.buttons #Slack {
   padding: 10px;
   background: blue;
   color: white;
   border: none;
   border-radius: 8px;
+}
+
+div.container div.see div.see_Teambit-container span {
+  margin-top: 50px;
 }
 
 div.container div.footer {
@@ -269,7 +287,7 @@ div.container div.footer {
 }
 
 div.container div.footer div.footer-container {
-  width: 75%;
+  width: 85%;
   height: 75%;
   display: flex;
   flex-direction: row;
