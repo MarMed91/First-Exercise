@@ -262,7 +262,9 @@ div.container div.footer div.footer-container div.footer-left {
 
 div.container div.footer div.footer-container div.footer.right {
   display: flex;
-  flex-direction: row;
-  justify-content: center;
+}
+
+div.container div.footer div.footer-container div.footer.right div.link-container ul {
+  list-style: none;
 }
 

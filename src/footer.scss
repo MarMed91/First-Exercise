@@ -18,10 +18,18 @@
 
        div.footer.right {
 
-         @include flexFooter;
-
+         display: flex;
          div.link-container {
 
+           ul {
+
+               list-style: none;
+
+             li {
+
+               
+             }
+           }
 
          }
        }
