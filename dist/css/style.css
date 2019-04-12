@@ -118,7 +118,7 @@ div.container div.traditional div.traditional-container {
   justify-content: center;
   width: 75%;
   margin: auto;
-  padding: 70px 70px 35px;
+  padding: 125px 180px 35px;
 }
 
 div.container div.traditional div.traditional-container div.three-items-row {
@@ -190,7 +190,7 @@ div.container div.feedback div.feedback-container div.feedback-right {
 div.container div.feedback div.feedback-container div.feedback-right div.feed-image img {
   width: 75%;
   height: 100%;
-  padding: 70px 70px 35px;
+  padding: 125px 180px 35px;
 }
 
 div.container div.survey {
@@ -204,7 +204,7 @@ div.container div.survey div.survey-container {
   align-items: center;
   text-align: center;
   margin: auto;
-  width: 75%;
+  width: 100%;
 }
 
 div.container div.survey div.survey-container div.survey-left {
@@ -220,6 +220,7 @@ div.container div.survey div.survey-container div.survey-left div.survey-left-im
 div.container div.survey div.survey-container div.survey-left div.survey-left-img img {
   width: 100%;
   height: 100%;
+  padding: 125px 180px 35px;
 }
 
 div.container div.survey div.survey-container div.survey-right {
@@ -249,7 +250,7 @@ div.container div.see div.see_Teambit-container {
   flex-direction: column;
   align-items: center;
   margin: auto;
-  padding: 70px 70px 35px;
+  padding: 125px 180px 35px;
 }
 
 div.container div.see div.see_Teambit-container h5 {

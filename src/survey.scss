@@ -7,7 +7,7 @@ div.survey {
 
       @include flexRowUnd;
       margin: $margin_auto;
-      width: $width75;
+      width: $width100;
 
       div.survey-left {
       margin: $margin_auto;
@@ -21,6 +21,7 @@ div.survey {
            img {
                width: $width100;
                height: $height100;
+               padding: $paddingF;
            }
         }
       }
@@ -37,6 +38,7 @@ div.survey {
             img {
                 width: $width100;
                 height: $height100;
+
             }
           }
       }
