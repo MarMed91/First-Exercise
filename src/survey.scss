@@ -16,7 +16,7 @@ div.survey {
         div.survey-left-img {
 
            width: $width100;
-           height: 277px;
+           height: 405px;
 
            img {
                width: $width100;
@@ -28,6 +28,17 @@ div.survey {
       div.survey-right {
           width: $width50;
           margin: $margin_auto;
+
+          div.survey-right-img {
+
+            width: $width100;
+            height: 405px;
+
+            img {
+                width: $width100;
+                height: $height100;
+            }
+          }
       }
    }
 }
