@@ -365,3 +365,8 @@ div.container div.footer div.footer-container div.footer-right div.link-containe
   text-decoration: none;
 }
 
+div.container div.footer div.footer-container div.footer-right div.link-container ul li {
+  margin-top: 15px;
+  text-align: left;
+}
+

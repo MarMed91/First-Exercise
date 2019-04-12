@@ -32,6 +32,11 @@
 
            ul {
                @include footerLink;
+
+               li {
+                 margin-top: $margin;
+                 text-align: left;
+               }
            }
          }
        }
