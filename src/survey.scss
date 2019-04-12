@@ -2,6 +2,7 @@
 div.survey {
 
    width: $width100;
+   margin-bottom: $marginU;
 
    div.survey-container {
 
@@ -16,7 +17,7 @@ div.survey {
         div.survey-left-img {
 
            width: $width100;
-           height: 405px;
+           height: $heightImg;
 
            img {
                width: $width100;
@@ -33,7 +34,7 @@ div.survey {
           div.survey-right-img {
 
             width: $width100;
-            height: 405px;
+            height: $heightImg;
 
             img {
                 width: $width100;
