@@ -53,14 +53,12 @@ div.container div.header div.right div.navbar a:hover {
 div.container div.understand {
   display: flex;
   flex-direction: row;
-  justify-content: center;
-  align-items: center;
   width: 75%;
+  margin: 50px;
 }
 
 div.container div.understand div.understand-left {
   margin: 15px;
-  padding: 50px;
 }
 
 div.container div.understand div.understand-left div.buttons {

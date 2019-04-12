@@ -1,13 +1,14 @@
 div.understand {
 
-    @include flexRowUnd;
+
+    @include flexRowUndU;
     width: $width75;
+    margin: $marginU;
 
   div.understand-left {
 
      margin: $margin;
-     padding: $paddingU;
-
+     
      div.buttons {
 
          @include flexRowUnd;

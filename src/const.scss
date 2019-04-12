@@ -20,6 +20,7 @@ $paddingF : 150px;
 $padding-left : 50px;
 
 $margin: 15px;
+$marginU: 50px;
 $margin_auto : auto;
 $margin-left : 50px;
 
@@ -43,6 +44,11 @@ $border : 1px solid black;
   flex-direction: row;
   justify-content: center;
   align-items: center;
+}
+
+@mixin flexRowUndU {
+  display: flex;
+  flex-direction: row;
 }
 
 @mixin flexFooter {
