@@ -13,6 +13,7 @@ $height75 : 75%;
 $height100 : 100%;
 
 $padding-right : 30px;
+$padding-rightFoot : 150px;
 $padding: 10px;
 $paddingU : 50px;
 $paddingF : 150px;
@@ -41,6 +42,12 @@ $border-radius: 8px;
   flex-direction: row;
   justify-content: center;
   align-items: center;
+}
+
+@mixin flexFooter {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
 }
 
 @mixin button {

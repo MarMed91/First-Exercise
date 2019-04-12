@@ -6,7 +6,24 @@
 
    div.footer-container {
 
-     width: $width75;
-     height: $height75;
+       width: $width75;
+       height: $height75;
+       @include flexFooter;
+
+       div.footer-left {
+         width: $width50;
+         @include flexFooter;
+         padding-right: $padding-rightFoot;
+       }
+
+       div.footer.right {
+
+         @include flexFooter;
+
+         div.link-container {
+
+
+         }
+       }
    }
  }
