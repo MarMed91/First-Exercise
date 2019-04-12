@@ -326,6 +326,7 @@ div.container div.footer {
   display: flex;
   flex-direction: column;
   align-items: center;
+  color: #58402c;
 }
 
 div.container div.footer div.footer-container {
@@ -368,5 +369,9 @@ div.container div.footer div.footer-container div.footer-right div.link-containe
 div.container div.footer div.footer-container div.footer-right div.link-container ul li {
   margin-top: 15px;
   text-align: left;
+}
+
+div.container div.footer div.footer-container div.footer-right div.link-container ul li #blue {
+  color: blue;
 }
 

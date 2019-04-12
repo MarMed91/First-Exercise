@@ -3,6 +3,7 @@
 
    width: $width100;
    @include flexColumn;
+   color: $colors3;
 
    div.footer-container {
 
@@ -36,6 +37,10 @@
                li {
                  margin-top: $margin;
                  text-align: left;
+
+                 #blue {
+                   color: $colors5;
+                 }
                }
            }
          }

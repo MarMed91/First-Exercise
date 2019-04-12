@@ -26,15 +26,15 @@ div.header {
        }
 
       a {
-        background: white;
-        border: 1px solid blue;
+        background: $colors2;
+        border: 1px solid $colors5;
         text-decoration: none;
         padding: $padding;
         border-radius: $border-radius;
 
         &:hover {
           background: $colors5;
-          border: 1px solid white;
+          border: 1px solid $colors2;
           color: $colors2;
         }
       }
