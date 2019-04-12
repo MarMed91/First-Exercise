@@ -9,8 +9,8 @@
    div.see_Teambit-container {
 
      width: $width75;
-     height: $height75;
      @include flexColumn;
+     margin: $margin_auto;
 
      div.buttons {
 
