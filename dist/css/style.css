@@ -236,3 +236,12 @@ div.container div.see_Teambit div.see_Teambit-container div.buttons #Slack {
   border-radius: 8px;
 }
 
+div.container div.footer {
+  width: 100%;
+}
+
+div.container div.footer div.footer-container {
+  width: 80%;
+  height: 70%;
+}
+

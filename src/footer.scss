@@ -1,5 +1,11 @@
 
  div.footer {
 
-   
+   width: $width100;
+
+   div.footer-container {
+
+     width: $width80;
+     height: $height70;
+   }
  }
