@@ -24,8 +24,8 @@ div.feedback {
     div.feedback-right {
 
       width: $width50;
-      height: 200px;
-      margin-bottom: 150px;
+      height: $heightFeed;
+      margin-bottom: $marginMax;
 
       div.feed-image img {
         width: $width75;
