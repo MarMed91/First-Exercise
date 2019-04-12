@@ -212,6 +212,16 @@ div.container div.survey div.survey-container div.survey-left {
   width: 50%;
 }
 
+div.container div.survey div.survey-container div.survey-left div.survey-left-img {
+  width: 100%;
+  height: 277px;
+}
+
+div.container div.survey div.survey-container div.survey-left div.survey-left-img img {
+  width: 100%;
+  height: 100%;
+}
+
 div.container div.survey div.survey-container div.survey-right {
   width: 50%;
   margin: auto;
