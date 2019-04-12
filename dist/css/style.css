@@ -61,11 +61,14 @@ div.container div.understand div.understand-left {
   margin: 15px;
 }
 
-div.container div.understand div.understand-left div.buttons {
-  display: flex;
-  flex-direction: row;
-  justify-content: center;
-  align-items: center;
+div.container div.understand div.understand-left h1 {
+  margin-bottom: 50px;
+  color: #58402c;
+}
+
+div.container div.understand div.understand-left p {
+  margin-bottom: 50px;
+  color: #58402c;
 }
 
 div.container div.understand div.understand-left div.buttons #Google {
@@ -76,12 +79,21 @@ div.container div.understand div.understand-left div.buttons #Google {
   border-radius: 8px;
 }
 
+div.container div.understand div.understand-left div.buttons i {
+  color: grey;
+}
+
 div.container div.understand div.understand-left div.buttons #Slack {
   padding: 10px;
   background: blue;
   color: white;
   border: none;
   border-radius: 8px;
+}
+
+div.container div.understand div.understand-left span {
+  margin-bottom: 15px;
+  color: #58402c;
 }
 
 div.container div.understand div.understand-right {
@@ -269,6 +281,10 @@ div.container div.footer div.footer-container div.footer-left {
   flex-direction: row;
   justify-content: center;
   padding-right: 150px;
+}
+
+div.container div.footer div.footer-container div.footer.right {
+  list-style: none;
 }
 
 div.container div.footer div.footer-container div.footer.right div.link-container {

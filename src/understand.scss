@@ -1,5 +1,5 @@
-div.understand {
 
+div.understand {
 
     @include flexRowUndU;
     width: $width75;
@@ -8,18 +8,35 @@ div.understand {
   div.understand-left {
 
      margin: $margin;
-     
-     div.buttons {
 
-         @include flexRowUnd;
+     h1 {
+       margin-bottom: $marginU;
+       color: $colors3;
+     }
+
+     p {
+       margin-bottom: $marginU;
+       color: $colors3;
+     }
+
+     div.buttons {
 
          #Google {
           @include button;
          }
 
+         i {
+           color: $colors7;
+         }
+
          #Slack {
           @include button;
          }
+     }
+
+     span {
+       margin-bottom: $margin;
+       color: $colors3;
      }
   }
   div.understand-right {
