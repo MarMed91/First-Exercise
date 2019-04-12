@@ -8,14 +8,14 @@ div.traditional {
 
     @include flexColumn;
     justify-content: center;
-    width: $width80;
+    width: $width75;
     margin: $margin_auto;
 
     div.three-items-row {
 
       @include  flexRowUnd;
       height: calc(100% / 3);
-      width: $width80;
+      width: $width75;
 
       div {
 
@@ -23,7 +23,7 @@ div.traditional {
 
           img {
 
-            width: $width80;
+            width: $width75;
           }
       }
     }
@@ -31,7 +31,7 @@ div.traditional {
 
       @include  flexRowUnd;
       height: calc(100% / 7);
-      width: $width80;
+      width: $width75;
       border-bottom: 1px solid $colors1;
 
       div {
@@ -40,8 +40,8 @@ div.traditional {
 
           img {
 
-              width: $width80;
-              height: $height70;
+              width: $width75;
+              height: $height75;
           }
       }
     }

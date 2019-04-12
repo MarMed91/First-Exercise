@@ -7,7 +7,7 @@ div.survey {
 
       @include flexRowUnd;
 
-      width: $width80;
+      width: $width75;
 
       div.surveys-left {
           width: $width50;
@@ -16,7 +16,7 @@ div.survey {
       div.surveys-right {
 
           width: $width50;
-          height : $height70;
+          height : $height75;
 
           div.survey-right img {
 
