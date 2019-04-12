@@ -60,6 +60,7 @@ $border : 1px solid black;
 @mixin button {
   padding: $padding;
   background: $colors5;
+  color: $colors2;
   border: none;
   border-radius: $border-radius;
 }

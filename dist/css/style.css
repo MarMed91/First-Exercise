@@ -71,6 +71,7 @@ div.container div.understand div.understand-left div.buttons {
 div.container div.understand div.understand-left div.buttons #Google {
   padding: 10px;
   background: blue;
+  color: white;
   border: none;
   border-radius: 8px;
 }
@@ -78,6 +79,7 @@ div.container div.understand div.understand-left div.buttons #Google {
 div.container div.understand div.understand-left div.buttons #Slack {
   padding: 10px;
   background: blue;
+  color: white;
   border: none;
   border-radius: 8px;
 }
@@ -233,6 +235,7 @@ div.container div.see div.see_Teambit-container div.buttons {
 div.container div.see div.see_Teambit-container div.buttons #Google {
   padding: 10px;
   background: blue;
+  color: white;
   border: none;
   border-radius: 8px;
 }
@@ -240,6 +243,7 @@ div.container div.see div.see_Teambit-container div.buttons #Google {
 div.container div.see div.see_Teambit-container div.buttons #Slack {
   padding: 10px;
   background: blue;
+  color: white;
   border: none;
   border-radius: 8px;
 }
