@@ -12,6 +12,12 @@
      @include flexColumn;
      margin: $margin_auto;
 
+     blockquote {
+
+       background: $colors2;
+       border: $border;
+     }
+
      div.buttons {
 
          @include flexRowUnd;

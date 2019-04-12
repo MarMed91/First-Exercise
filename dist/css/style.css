@@ -216,6 +216,11 @@ div.container div.see div.see_Teambit-container {
   margin: auto;
 }
 
+div.container div.see div.see_Teambit-container blockquote {
+  background: white;
+  border: 1px solid black;
+}
+
 div.container div.see div.see_Teambit-container div.buttons {
   display: flex;
   flex-direction: row;
