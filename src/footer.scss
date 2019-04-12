@@ -34,14 +34,17 @@
            ul {
                @include footerLink;
 
-               li {
-                 margin-top: $margin;
-                 text-align: left;
+              li {
+                margin-top: $margin;
+                text-align: left;
 
-                 #blue {
-                   color: $colors5;
-                 }
-               }
+                &:hover {
+                  color:$colors4;
+                }
+             }
+             #blue {
+               color: $colors5;
+             }
            }
          }
        }

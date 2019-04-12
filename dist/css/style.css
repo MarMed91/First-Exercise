@@ -371,6 +371,10 @@ div.container div.footer div.footer-container div.footer-right div.link-containe
   text-align: left;
 }
 
+div.container div.footer div.footer-container div.footer-right div.link-container ul li:hover {
+  color: #7e8db9;
+}
+
 div.container div.footer div.footer-container div.footer-right div.link-container ul li #blue {
   color: blue;
 }
