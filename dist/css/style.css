@@ -284,21 +284,17 @@ div.container div.footer div.footer-container div.footer-left {
   padding-right: 120px;
 }
 
-div.container div.footer div.footer-container div.footer.right {
-  list-style: none;
-}
-
-div.container div.footer div.footer-container div.footer.right div.link-container {
+div.container div.footer div.footer-container div.footer-right {
   display: flex;
   flex-direction: row;
   justify-content: center;
 }
 
-div.container div.footer div.footer-container div.footer.right div.link-container ul {
+div.container div.footer div.footer-container div.footer-right div.link-container ul {
   list-style: none;
 }
 
-div.container div.footer div.footer-container div.footer.right div.link-container ul li {
+div.container div.footer div.footer-container div.footer-right div.link-container ul li {
   list-style: none;
 }
 

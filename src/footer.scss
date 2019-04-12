@@ -16,12 +16,12 @@
          padding-right: $padding-rightFoot;
        }
 
-       div.footer.right {
+       div.footer-right {
 
-          list-style: none;
+        @include flexFooter;
          div.link-container {
 
-           @include flexFooter;
+
            ul {
                list-style: none;
              li {
