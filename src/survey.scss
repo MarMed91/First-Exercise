@@ -16,13 +16,20 @@ div.survey {
       div.surveys-right {
 
           width: $width50;
-          height : $height75;
 
-          div.survey-right img {
+          div.survey-right-img {
 
-             width: $width100;
-             height: $height100;
+            width: $width100;
+            height: 100px;
+
+            div.survey-right img {
+
+               width: $width100;
+               height: $height100;
+            }
           }
+
+
         }
    }
 }

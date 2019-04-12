@@ -8,7 +8,7 @@
 
        width: $width75;
        height: $height75;
-       @include flexFooter;
+        @include flexFooter;
 
        div.footer-left {
          width: $width50;
@@ -18,19 +18,16 @@
 
        div.footer.right {
 
-         display: flex;
+
          div.link-container {
 
+           @include flexFooter;
            ul {
-
                list-style: none;
-
              li {
-
-               
+               list-style: none;
              }
            }
-
          }
        }
    }
